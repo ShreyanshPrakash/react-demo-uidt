@@ -12,4 +12,4 @@ app.get('/', function (req, res) {
 	res.sendFile('./index.html', { root: __dirname });
 });
 app.use(_express2.default.static(__dirname));
-//app.listen(3000);
+app.listen(app.get('port'));
