@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build",
-    "build": "webpack -d"
-  },
+    "start": "node server.js"
+      },
   "author": "",
   "license": "ISC",
   "dependencies": {
